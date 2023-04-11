@@ -1,0 +1,256 @@
+
+.recherche{
+    align-items: center;
+    text-align: center;
+}
+input{
+    border-radius: 10px;
+    width: 100px;
+}
+
+.categories {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 52px;
+  }
+  
+  .categories h2 {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .card-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+    width: calc(20.33% - 10px);
+    height: 350px;
+  }
+  
+  .card img {
+    border-radius: 10px 10px 0 0;
+    height: 250px;
+    object-fit: cover;
+    width: 100%;
+  }
+  
+  .card-body {
+    padding: -20px;
+    text-align: center;
+  }
+  
+  .card h3 {
+    font-size: px;
+    margin-bottom:10px;
+  }
+  
+  .card a {
+    background-color: burlywood;
+    border-radius: 5px;
+    color: #221e1e;
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+  }
+
+
+
+  .main{
+    margin: 10px;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /*.cartes{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .cartes .carte{
+    margin-right: 5px;
+    cursor: pointer;
+  }
+  .cartes .carte img{
+   width: 300px;
+  }
+  .cartes .carte .carte header h4{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .cartes .carte .carte-body p{
+    margin-top: -10px;
+  }
+  button[type="button"]{
+    background-color:burlywood;
+    color: #fff;
+    border: 1px solid burlywood;
+    transition: all 0.3s ease;
+    font-size: 16px;
+    height: 40px;
+    width: 120px;
+    border-radius: 4px;
+    text-decoration: none;
+  }*/
+  
+  /* Ajouter un effet de survol au bouton */
+
+  .produits {
+    background-color: #fff;
+    padding: 20px;
+  }
+  
+  .produits h2 {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .card-group1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .card1 {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+    width: calc(20.33% - 10px);
+    height: 350px;
+  }
+  
+  .card1 img {
+    border-radius: 10px 10px 0 0;
+    height: 250px;
+    object-fit: cover;
+    width: 100%;
+  }
+  
+  .card-body {
+    padding: -20px;
+    text-align: center;
+  }
+  
+  .card1 h3 {
+    font-size: 18px;
+    padding: 7px;
+    justify-content: space-between;
+    display: inline;
+  }
+  
+  .card1 a {
+    background-color:burlywood;
+    border-radius: 5px;
+    color: #221e1e;
+    display: inline-block;
+    padding: 8px 18px;
+    text-decoration: none;
+    margin: 35px;
+  }
+
+a:hover {
+    background-color:black;
+    color:#fff;
+    text-decoration: none;
+  }
+
+  @media screen and (min-width: 700px){
+    .categories {
+      background-color: #fff;
+      padding: 10px;
+  }
+  .card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 10px;
+    width: calc(20.33% - 10px);
+    height: 350px;
+}
+.card h3 {
+  font-size: px;
+  margin-bottom: 7px;
+}
+.card a {
+  background-color: burlywood;
+  border-radius: 5px;
+  color: #221e1e;
+  display: inline-block;
+  padding: 8px 10px;
+  text-decoration: none;
+}
+.card1 h3 {
+  font-size: px;
+  padding: 7px;
+  justify-content: space-between;
+  display: inline;
+}
+  }
+  
+  @media screen and (min-width: 1000px){
+    
+    .card1 h3 {
+      font-size: 14px;
+      padding: 5px;
+      justify-content: space-between;
+      display: inline;
+  }
+  .card1 a {
+    background-color: burlywood;
+    border-radius: 5px;
+    color: #221e1e;
+    display: inline-block;
+    padding: 10px 8px;
+    text-decoration: none;
+    margin: 30px;
+}
+  }
+  @media screen and (min-width: 800px){
+    .card1 a {
+      background-color: burlywood;
+      border-radius: 5px;
+      color: #221e1e;
+      display: inline-block;
+      padding: 3px 9px;
+      text-decoration: none;
+      margin: 29px;
+  }
+  .card1 h3 {
+    font-size: 10px;
+    padding: 7px;
+    justify-content: space-between;
+    display: inline;
+}
+  }
+  @media screen and (min-width: 451px){
+    .categories {
+      background-color: #fff;
+      padding: 10px;
+  }
+  .card h3 {
+    font-size: px;
+    margin-bottom: 15px;
+}
+.card a {
+  background-color: burlywood;
+  border-radius: 5px;
+  color: #221e1e;
+  display: inline-block;
+  padding: 1px 3px;
+  text-decoration: none;
+}
+  }

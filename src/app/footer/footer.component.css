@@ -1,0 +1,103 @@
+/* La section footer */
+footer{
+    background: #111;
+    padding: 15px 23px;
+    color: #fff;
+    text-align: center;
+    margin-top: 10%;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    padding: 4px;
+
+}
+a:hover{
+    text-decoration: none;
+    color: #DE8E59;
+    padding: 4px;
+
+}
+footer span a{
+    color: #DE8E59;
+    text-decoration: none;
+}
+footer span a:hover{
+    text-decoration: underline;
+}
+li{
+    list-style: none;
+    display: inline-block; 
+    
+}
+ul{
+    font-size: medium;
+    margin-left: 39%;
+}
+li:hover{
+    color: #DE8E59;   
+}
+.footer{
+    margin-left: 3%;
+}
+.logo{
+    margin-left: 3%;
+    font-size: 400%;
+    gap: 5px 10px;
+}
+@media (max-width: 390px) {
+    span{
+        font-size:90%;
+    }
+    ul{
+        text-align: center;
+    }
+}
+@media(max-width: 367px){
+    .logo{
+        font-size: 300%;
+    }
+}
+@media (max-width: 357px){
+    span{
+        font-size:80%;
+    }
+}
+@media(max-width: 348px){
+    ul{
+        font-size: 80%;
+    }
+}
+@media(max-width: 324px){
+    span{
+        font-size: 70%;
+    }
+}
+@media(max-width: 300px){
+    ul{
+        font-size: 70%;
+    }
+}
+@media(max-width: 291px){
+    .logo{
+        font-size: 200%;
+    }
+    span{
+        font-size: 60%;
+    }
+}
+@media(max-width: 274px){
+    ul{
+        font-size: 60%;
+    }
+}
+@media(max-width: 256px){
+    span {
+        font-size: 50%;
+    }
+}
+@media(max-width: 256px){
+    ul {
+        font-size: 50%;
+    }
+}

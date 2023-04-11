@@ -1,0 +1,60 @@
+
+#bouton{
+    width: 100%;
+    text-align: center;
+    height: 45px;
+    background-color: #DE8E59;
+
+    border-radius: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #fff;
+    font-size: x-large;
+    
+}
+.text{
+    text-align: center;
+    font-family: 'Julius Sans One', sans-serif;
+    margin-bottom: 0px;
+    font-weight: 200;
+    font-size: 96px;
+}
+
+
+a{
+    text-decoration: none;
+}
+/* CSS pour la page Inscription.htm*/
+.btn{
+    text-align: center;
+}
+.tete-insc{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 18px;
+}
+.text1{
+   text-align: center;
+   margin-top: -100px;
+    margin-bottom: 0px;
+    font-weight: 200;
+    font-size: 35px;
+    margin-top: 20px;
+}
+.inputinsc{
+    width: 100%;
+height: 50px;
+margin: 8px 0 8px 0px;
+box-shadow: 1px 3px 1px rgb(141, 139, 139);
+}
+
+#forminscrip{
+    background-color: #ffffff;
+   margin-top: 200px;
+    border: 1px solid #f7f7f9;
+    border-radius: 28px;
+    padding: 4%;
+   margin: auto;
+    border-radius: 18%;
+    width: 35%;  
+}
+/*css pour acceuil*/

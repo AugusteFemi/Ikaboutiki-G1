@@ -1,0 +1,69 @@
+
+.rech{
+    text-align: center;
+  top: 4px;
+  width: 50%;
+  right: 70px;
+  font-size: 19px;
+  padding: 15px;
+    border: none;
+    border-radius: 30px;
+    background-color: #E5D1B8;
+}
+#icon{
+  margin-top: 2px;
+}
+input{
+    border-color: #E5D1B8;
+}
+#forum{
+ 
+  top: 20%;
+  width: 100%;
+  text-align: center;
+}
+.p1{
+   
+  top: 40%;
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+  color: #00000065;
+}
+
+
+.p2{
+    
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+}
+nav p{
+  padding: 35px;
+  background-color: #E5D1B8;
+  text-align: center;
+  font-size: 35px;
+  
+}
+.mela{
+  display: flex;
+  flex-direction: row;
+}
+.tailContent{
+  margin-top: 120px;
+}
+.tailContent p{
+  font-size: 40px;
+}
+.button {
+  background-color: #E5D1B8; 
+  border: none;
+  color: #000000;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+  gap: 50px 40px;
+}

@@ -1,0 +1,116 @@
+/* CSS Service */
+
+
+/* *{
+
+    margin-top: 35px;
+} */
+
+.body {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 97vh;
+    margin: 30px;
+    font-family: 'Inter', sans-serif;;
+}
+
+.container-service {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    max-width: 1150px;
+    width: 100%;
+    gap: 40px;
+}
+
+.bloc-livraison, .bloc-qualite, .bloc-garantit {
+    width: 33%;
+    background-color: #E5D1B8;
+    height: 500px;
+    padding: 15px;
+    box-sizing: border-box;
+    border-radius: 30px;
+
+}
+
+P {
+
+    text-align: center;
+    margin-bottom: 30%;
+}
+
+#car, #qrcode {
+    
+    font-size: 64px;
+}
+
+/* début css panier*/
+
+
+
+#bag {
+
+    font-size: 100px;
+    position: relative;
+    top: 50px;
+}
+
+.panier {
+
+    text-align: center;
+
+}
+
+.panier + h1 {
+
+    font-weight: bold;
+}
+
+.connexion {
+
+    background-color: #D9D9D9;
+    color: black;
+    border-radius: 34px;
+    padding: 8px;
+    position: relative;
+    bottom: 45px;
+    font-size: 20px;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.8);
+    text-decoration: none;
+}
+
+.connexion:hover {
+
+    background-color: #000;
+    color: #D9D9D9;
+    border-radius: 34px;
+    padding: 8px;
+    position: relative;
+    bottom: 45px;
+    font-size: 20px;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.8);
+    text-decoration: none;
+}
+
+.ajouter {
+
+    background-color: #000;
+    color: #D9D9D9;
+    border-radius: 34px;
+    padding: 8px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.ajouter:hover {
+
+    background-color: #D9D9D9;
+    color: #000;
+    border-radius: 34px;
+    padding: 8px;
+    font-size: 20px;
+    text-decoration: none;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.8);
+}

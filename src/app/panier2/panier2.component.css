@@ -1,0 +1,81 @@
+.rech{
+    position: absolute;
+  top: 8px;
+  right: 70px;
+  font-size: 19px;
+  padding: 15px;
+    border: none;
+    border-radius: 30px;
+    background-color: #E5D1B8;
+}
+#icon{
+  margin-top: 2px;
+}
+input{
+    border-color: #E5D1B8;
+}
+#forum{
+    position: fixed;
+  top: 20%;
+  width: 100%;
+  text-align: center;
+}
+.p1{
+    position: absolute;
+  top: 40%;
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+  color: #00000065;
+}
+.p2{
+    position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  font-size: 40px;
+}
+nav p{
+  padding: 35px;
+  background-color: burlywood;
+  text-align: center;
+  font-size: 45px;
+  
+}
+.mela{
+  display: flex;
+  flex-direction: row;
+  margin-top: 35px;
+}
+.tailContent{
+  margin-top: 50px;
+}
+.tailContent p{
+  font-size: 30px;
+}
+.pcont{
+  margin-top: 60px;
+}
+input{
+  background-color: burlywood; 
+}
+.button {
+  background-color: burlywood; 
+  border: none;
+  color: #000000;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 24px;
+  gap: 550px;
+}
+.button1{
+  display: flex;
+  flex-direction: row;
+  gap: 360px;
+  margin-left: 60px;
+}
+.description p{
+  justify-content: center;
+  font-size: 30px;
+}

@@ -1,0 +1,275 @@
+.recherche{
+  align-items: center;
+  text-align: center;
+}
+input{
+  border-radius: 10px;
+  width: 100px;
+}
+
+.categories {
+  background-color: #fff;
+  margin-top: 82px;
+  padding: 20px;
+}
+
+.categories h2 {
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.card-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+  width: calc(20.33% - 10px);
+  height: 350px;
+}
+
+.card img {
+  border-radius: 10px 10px 0 0;
+  height: 250px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.card-body {
+  padding: -20px;
+  text-align: center;
+}
+
+.card h3 {
+  font-size: px;
+  margin-bottom:10px;
+}
+
+.card a {
+  background-color: burlywood;
+  border-radius: 5px;
+  color: #221e1e;
+  display: inline-block;
+  padding: 5px 10px;
+  text-decoration: none;
+}
+
+
+
+.main{
+  margin: 10px;
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+i{
+  color: burlywood;
+  font-size: 10px;
+}
+
+/*.cartes{
+  display: flex;
+  flex-wrap: wrap;
+}
+.cartes .carte{
+  margin-right: 5px;
+  cursor: pointer;
+}
+.cartes .carte img{
+ width: 300px;
+}
+.cartes .carte .carte header h4{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.cartes .carte .carte-body p{
+  margin-top: -10px;
+}
+button[type="button"]{
+  background-color:burlywood;
+  color: #fff;
+  border: 1px solid burlywood;
+  transition: all 0.3s ease;
+  font-size: 16px;
+  height: 40px;
+  width: 120px;
+  border-radius: 4px;
+  text-decoration: none;
+}*/
+
+/* Ajouter un effet de survol au bouton */
+
+.produits {
+  background-color: #fff;
+  padding: 20px;
+}
+
+.produits h2 {
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.card-group1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card1 {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+  width: calc(20.33% - 10px);
+  height: 350px;
+}
+
+.card1 img {
+  border-radius: 10px 10px 0 0;
+  height: 250px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.card-body {
+  padding: -20px;
+  text-align: center;
+}
+
+.card1 h3 {
+  font-size: 18px;
+  padding: 7px;
+  justify-content: space-between;
+  display: inline;
+}
+
+.card1 a {
+  background-color:burlywood;
+  border-radius: 5px;
+  color: #221e1e;
+  display: inline-block;
+  padding: 8px 18px;
+  text-decoration: none;
+  margin: 20px;
+}
+
+a:hover {
+  background-color:black;
+  color:#fff;
+  text-decoration: none;
+}
+
+
+
+@media screen and (max-width: 1029px){
+  .card1 h3 {
+    font-size: 13px;
+    padding: 8px;
+    justify-content: space-between;
+    display: inline;
+}
+.card1 a {
+  background-color: burlywood;
+  border-radius: 5px;
+  color: #221e1e;
+  display: inline-block;
+  padding: 10px 20px;
+  text-decoration: none;
+  margin: 15px;
+}
+.produits h2 {
+font-size: 50px;
+font-weight: bold;
+margin-bottom: 15px;
+text-align: center;
+}
+
+}
+
+@media screen and (min-width: 812px){
+  .card1 h3 {
+    font-size: 9px;
+    padding: 8px;
+    justify-content: space-between;
+    display: inline;
+}
+.card1 a {
+  background-color: burlywood;
+  border-radius: 5px;
+  color: #221e1e;
+  display: inline-block;
+  padding: 8px 5px;
+  text-decoration: none;
+  margin: 15px;
+}
+.produits h2 {
+font-size: 38px;
+font-weight: bold;
+margin-bottom: 15px;
+text-align: center;
+}
+
+}
+
+@media screen and (min-width: 603px){
+  .card1 h3 {
+    font-size: 10px;
+    padding: 5px;
+    justify-content: space-between;
+    display: inline;
+}
+.card1 {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+  width: calc(30.33% - 10px);
+  height: 350px;
+}
+.card1 a {
+  background-color: burlywood;
+  border-radius: 5px;
+  color: #221e1e;
+  display: inline-block;
+  padding: 1px 5px;
+  text-decoration: none;
+  margin: 15px;
+}
+}
+.produits h2 {
+font-size: 38px;
+font-weight: bold;
+margin-bottom: 15px;
+text-align: center;
+}
+@media screen and (min-width: 500px){
+.card1 {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+  width: calc(20.33% - 10px);
+  height: 350px;
+}
+.card1 a {
+  background-color: burlywood;
+  border-radius: 5px;
+  color: #221e1e;
+  display: inline-block;
+  padding: 1px 5px;
+  text-decoration: none;
+  margin: 15px;
+}
+}
